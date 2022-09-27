@@ -18,5 +18,8 @@ with a complex project structure and Python bindings using pybind11.
 ### Install Python bindings
 `python -m pip install .`
 
+### Using Python bindings without installation
+Build C++ library and copy `python/src/my_project.cpython[...]` next to python files.
+
 ### Run Python tests
 `python -m pytest python/`
